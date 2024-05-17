@@ -7,9 +7,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRb;
     private GameObject focalPoint;
     private float powerupStrength = 15.0f;
+
     public float speed = 5.0f;
     public bool hasPowerup;
     public GameObject powerupIndicator;
+
+    public GameObject rocketPrefab;
+    GameObject temRocket;
+   
     // Start is called before the first frame update
     void Start()
     {
